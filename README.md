@@ -10,7 +10,7 @@ These are the steps I took to accomplish my overall analysis:
 
 2. Connected to the Database
 Used this line of code: 
-# creating engine to hawaii.sqlite
+**creating engine to hawaii.sqlite
 engine = create_engine("sqlite:////Users/larry/OneDrive/Desktop/vbu_mod_10/sqlalchemy-challenge/SurfsUp_dude/Resources/hawaii.sqlite", echo=False)
 
 3. Used SQLAlchemy's automap_base() to reflect the tables from the database.
