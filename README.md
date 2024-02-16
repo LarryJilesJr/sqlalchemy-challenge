@@ -43,8 +43,8 @@ The API provides the following endpoints:
 /api/v1.0/precipitation: Retrieves precipitation data for the last 12 months.
 /api/v1.0/stations: Retrieves information about weather stations.
 /api/v1.0/tobs: Retrieves temperature observations for the last 12 months from the most active weather station.
-/api/v1.0/<start>: Retrieves minimum, average, and maximum temperatures for dates greater than or equal to the specified start date.
-/api/v1.0/<start>/<end>: Retrieves minimum, average, and maximum temperatures for dates between the specified start and end dates (inclusive).
+/api/v1.0/'<start>': Retrieves minimum, average, and maximum temperatures for dates greater than or equal to the specified start date.
+/api/v1.0/'<start>/<end>': Retrieves minimum, average, and maximum temperatures for dates between the specified start and end dates (inclusive).
 
 To run the API, execute the app.py script:
 python app.py
