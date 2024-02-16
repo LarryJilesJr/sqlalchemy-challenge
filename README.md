@@ -9,19 +9,19 @@ These are the steps I took to accomplish my overall analysis:
 1. Load in all dependencies, libraries and setups
 
 2. Connected to the Database
-Used this line of code: 
+Used this line of code:
 # creating engine to hawaii.sqlite
 engine = create_engine("sqlite:///..//SurfsUp_dude//Resources//hawaii.sqlite", echo=False)
 
-3. Used SQLAlchemy's automap_base() to reflect the tables from the database.
+4. Used SQLAlchemy's automap_base() to reflect the tables from the database.
 
-4. Queried data from the database using SQLAlchemy's session and query methods.
+5. Queried data from the database using SQLAlchemy's session and query methods.
 
-5. Used Matplotlib to create visualizations such as histograms and bar plots.
+6. Used Matplotlib to create visualizations such as histograms and bar plots.
 
-6. Customized plots with titles, labels, legends, and other properties.
+7. Customized plots with titles, labels, legends, and other properties.
 
-7. Lastly, I closed the SQLAlchemy session after finishing the operations.
+8. Lastly, I closed the SQLAlchemy session after finishing the operations.
 
 # Part 2--> Hawaii Weather API
 
